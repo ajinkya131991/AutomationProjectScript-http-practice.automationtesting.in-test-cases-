@@ -1,0 +1,13 @@
+2017-08-22 22:39:03 INFO  testBase:18 -  -------------------  EXECUTION STARTED -------------------------------
+2017-08-22 22:39:03 INFO  testBase:19 - 1. Open the browser : Opened in crome
+2017-08-22 22:39:03 INFO  testBase:20 - 2. Enter the URL http://practice.automationtesting.in 
+2017-08-22 22:39:08 INFO  uiActionHomepage:72 - 3. Click on Shop Menu - Passed
+2017-08-22 22:39:13 INFO  uiActionHomepage:74 - 4. Now click on Home menu button
+2017-08-22 22:39:13 INFO  uiActionHomepage:89 - 5. Test whether the Home page has Three Arrivals only
+2017-08-22 22:39:13 INFO  uiActionHomepage:97 - 6. The Home page must contains only three Arrivals
+2017-08-22 22:39:17 INFO  uiActionHomepage:104 - 7. Now click the image in the Arrivals
+2017-08-22 22:39:26 INFO  uiActionHomepage:109 - 8. Test whether it is navigating to next page where the user can add that book into his basket. Directed to URL: http://practice.automationtesting.in/product/selenium-ruby/
+2017-08-22 22:39:26 INFO  uiActionHomepage:112 - 9. Image is clickable and it navigates to next page where user can add that book to his basket. Text on the page: ADD TO BASKET
+2017-08-22 22:39:31 INFO  uiActionHomepage:128 - 10 .Click on review tab for the book you clicked on.
+2017-08-22 22:40:21 INFO  uiActionHomepage:142 - 11. There should be a Reviews regarding that book the user clicked on. Description is:  Reviews
+2017-08-22 22:40:23 INFO  testBase:45 - ---------------------EXECUTION ENDED -------------------------------------
