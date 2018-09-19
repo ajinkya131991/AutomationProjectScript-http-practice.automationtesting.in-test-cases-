@@ -32,7 +32,7 @@ public class testBase
 	{
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajinkya.bhobad\\Desktop\\jars\\chromedriver.exe	");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajinkya.bhobad\\Desktop\\jars\\chromedriver.exe");
 			driver = new ChromeDriver();
 			//log.info("1. Open the browser : Opened in crome");
 		}
