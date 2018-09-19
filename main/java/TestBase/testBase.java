@@ -32,13 +32,13 @@ public class testBase
 	{
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", System.getProperty("C:\\Users\\admin\\Desktop\\jars\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajinkya.bhobad\\Desktop\\jars\\chromedriver.exe	");
 			driver = new ChromeDriver();
 			//log.info("1. Open the browser : Opened in crome");
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", System.getProperty("C:\\Users\\admin\\Desktop\\jars\\geckodriver-v0.20.0-win64\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.driver", "C:\\Users\\ajinkya.bhobad\\Desktop\\jars\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			//log.info("1. Open the browser : Opened in Firefox");
 	    }		
@@ -102,7 +102,7 @@ public class testBase
 	    }			
 	
     public void closeBrowser() 
-    {   //Extent
+    {   
 		driver.quit();	
 	}
 }
